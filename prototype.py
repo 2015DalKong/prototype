@@ -1,11 +1,11 @@
 import pandas as pd
 import streamlit as st
 import plotly.graph_objects as go
+from PIL import Image
 
 merged_df = pd.read_csv('./data.csv')
-
-
-# 인사말
+img = Image.open('./image.jpg')
+# 인사말# 인사말
 """
 # Welcome to ImineSkin!
 
@@ -14,10 +14,10 @@ merged_df = pd.read_csv('./data.csv')
 """
 아래 내용은 현재 ERP DB의 월별 전표입력 갯수와 종액 DATA입니다.
 """
+
+st.image(img)
 st.header("ProtoType Code")
-
 st.divider()
-
 
 st.dataframe(merged_df)
 
