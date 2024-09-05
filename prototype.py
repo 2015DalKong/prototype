@@ -10,6 +10,7 @@ merged_df = pd.read_csv('./data.csv')
 # Welcome to ImineSkin!
 
 :heavy_exclamation_mark: 안녕하세요. 간단한 대시보드를 만들어보았습니다. :heavy_exclamation_mark:
+아래 내용은 현재 ERP DB의 월별 전표입력 갯수와 종액 DATA입니다.
 """
 st.header("ProtoType Code")
 
