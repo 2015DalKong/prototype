@@ -9,7 +9,7 @@ merged_df = pd.read_csv('./data.csv')
 """
 # Welcome to ImineSkin!
 
-안녕하세요. 간단한 대시보드를 만들어보았습니다.
+:heavy_exclamation_mark: 안녕하세요. 간단한 대시보드를 만들어보았습니다. :heavy_exclamation_mark:
 """
 st.header("ProtoType Code")
 
